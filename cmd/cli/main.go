@@ -17,10 +17,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/JuanVegaN/GoCalc.git/pkg/mathops"
+	"github.com/JuanVegaN/GoCalc.git/pkg/mathops/v1"
 )
 
 func main() {
+
+	// Implememnt factory pattern
+
 	var opcion, subopcion int
 	var num1, num2 float64
 	menu := []string{"Suma", "Resta", "Multiplicacion", "Division", "Raiz Cuadrada", "Salir"}
