@@ -21,7 +21,6 @@ import (
 
 func addRoutes(router *mux.Router) {
 
-	// router.HandleFunc("/", routes.Index) => helat check
 	router.HandleFunc("/add", hdl.AddHandler).Methods("POST")
 
 }
